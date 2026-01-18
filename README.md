@@ -18,5 +18,5 @@ A responsive contact and newsletter page with client-side JavaScript validation.
 Open `index.html` in a web browser.
 
 ## Live Demo
-(To be added after deployment)
+https://benjaminolasubomi.github.io/contact-newsletter-page/
 
