@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Newsletter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <h1>Get in Touch</h1>
+    <p>Send us a message or subscribe to our newsletter.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Contact Form</h2>
+
+      <form id="contactForm" novalidate>
+        <label>
+          Full Name
+          <input type="text" id="name" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" id="email" placeholder="you@example.com" required />
+        </label>
+
+        <label>
+          Message
+          <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+        </label>
+
+        <button type="submit">Send Message</button>
+
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Newsletter</h2>
+      <p>Stay updated with our latest news.</p>
+
+      <form id="newsletterForm" novalidate>
+        <label>
+          Email
+          <input type="email" id="newsletterEmail" placeholder="you@example.com" required />
+        </label>
+
+        <button type="submit">Subscribe</button>
+        <p id="newsletterMessage" class="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Benjamin Ajibola</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
